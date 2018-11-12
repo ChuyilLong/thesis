@@ -1,0 +1,31 @@
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+    body{
+	width: 100%;
+	float: left;
+	margin: 0;
+	}
+
+	/*--iconpage start--*/
+
+	.iconspage{
+		float: left;
+		width: 100%;
+		background: url(images/iphonepage.PNG);
+		background-size: cover;
+		height: 812px;
+	}
+	.iconspage-icon{
+		float: left;
+		margin-left: 62px;
+		margin-top: 473px;
+	}
+	
+	/*--iconpage ends--*/
+
+}
+
+
