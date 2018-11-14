@@ -4,9 +4,25 @@
     and (-webkit-device-pixel-ratio : 3) {
 
     body{
-	width: 100%;
+	width: 375px;
 	float: left;
 	margin: 0;
+	font-family: helvetica;
+	}
+	body h6{
+		font-size: 10px;
+	}
+	.main_content{
+		float: left;
+		width: 100%;
+		height: 729px;
+		background-color: #eee;
+	}
+	.bottom_content{
+		float: left;
+		width: 100%;
+		height: 83px;
+		background-color: #ccc;
 	}
 
 	/*--iconpage start--*/
@@ -25,6 +41,66 @@
 	}
 	
 	/*--iconpage ends--*/
+
+	/*--welcome_1 start--*/
+
+	.welcome_1{
+		float: left;
+		width: 375px;
+		height: 812px;
+		background-color: #FFF;
+	}
+	.welcome_1 img{
+		float: left;
+		width: 100%;
+	}
+	.welcome_1_top{
+		width: 100%;
+		height: 729px;
+	}
+	.welcome_1_logo {
+		float: left;
+		width: 100%;
+		margin-top: 284px;
+		margin-left: 118px;
+	}
+	.welcome_1_logo img{
+		width: 109px;
+		margin: 0 auto;
+	}
+	.welcome_slo_container{
+		width: 100%;
+		float: left;
+		margin-top: 60px;
+	}
+	.welcome_1_slogan {
+	  	float: none;
+		margin: 0 auto;
+		width: 335px;
+	}
+	.welcome_1_slogan img{
+		float: left;
+	    width:100%;
+
+	}
+	.welcome_1_bottom{
+		float: left;
+		width: 100%;
+		text-align: center;
+		height: 83px;
+	}
+	.welcome_1_bottom h6{
+		font-weight: lighter;
+	}
+	/*--welcome_1 end--*/
+
+	/*--welcome_2 start--*/
+	.welcome_2{
+		float: left;
+		width: 375px;
+		height: 812px;
+	}
+	
 
 }
 
